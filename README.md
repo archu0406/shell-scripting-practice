@@ -7,17 +7,24 @@ As part of this excercise you will create a simple, interactive calculator progr
 
 
 while true
+
 do
+
       echo " Welcome to simple interative calculator"
+      
       echo " The operations performed through this calculator are
         1) Add
         2) Subtract
         3) Multiply
         4) Divide
         5) Exit"
+        
       echo " Enter the option you need to perform:"
+      
         read OPERATION
+        
         case $OPERATION in
+        
                 "add")
 
                         let "total=$1+$2"
