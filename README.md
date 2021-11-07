@@ -7,4 +7,9 @@ As part of this excercise you will create a simple, interactive calculator progr
 
 
       echo " Welcome to simple interative calculator"
-    
+      echo " The operations performed through this calculator are
+        1) Add
+        2) Subtract
+        3) Multiply
+        4) Divide
+        5) Exit"
