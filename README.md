@@ -40,4 +40,7 @@ As part of this excercise you will create a simple, interactive calculator progr
                         echo "Thank you for performing the operations!!"
                         break
                         ;;
+                 *)
+                        echo "Whoops!! Unable to perform the operation in this calculator"
+                        ;;
             esac
