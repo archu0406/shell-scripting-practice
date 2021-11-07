@@ -41,6 +41,9 @@ echo " Welcome to simple interative calculator"
                         echo "Thank you for performing the operations!!"
                         break
                         ;;
+                 *)
+                        echo "Whoops!! Unable to perform the operation in this calculator"
+                        ;;
         esac
 
 # If the selection does not match a support operation, display an error message.
