@@ -6,6 +6,12 @@ echo " Welcome to simple interative calculator"
   # Add
   # Subtract
   # Exit
+ echo " The operations performed through this calculator are
+        1) Add
+        2) Subtract
+        3) Multiply
+        4) Divide
+        5) Exit"
 # Then, capture the user selection.
 # If the selection matches a supported operation, execute the operation.
 # If the selection does not match a support operation, display an error message.
