@@ -6,6 +6,8 @@ This repository contains the starter files for the 'Shell Scripting' exercise.
 As part of this excercise you will create a simple, interactive calculator program in the `calc.sh` file provided. Please review the contents of the `calc.sh` file as well as the accompanying class materials for additional details.
 
 
+while true
+do
       echo " Welcome to simple interative calculator"
       echo " The operations performed through this calculator are
         1) Add
@@ -44,3 +46,4 @@ As part of this excercise you will create a simple, interactive calculator progr
                         echo "Whoops!! Unable to perform the operation in this calculator"
                         ;;
             esac
+  done
