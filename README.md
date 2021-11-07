@@ -13,3 +13,5 @@ As part of this excercise you will create a simple, interactive calculator progr
         3) Multiply
         4) Divide
         5) Exit"
+      echo " Enter the option you need to perform:"
+        read OPERATION
